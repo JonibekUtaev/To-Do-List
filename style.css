@@ -1,0 +1,54 @@
+*{
+  margin:0;
+}
+body{
+  background-image:linear-gradient(to top left,blue,aqua);
+  background-repeat:no-repeat;
+}
+#container{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  justify-content:center;
+  height:100vh;
+  width:100%;
+  
+}
+#add{
+  border:solid 2px black;
+  border-radius:10px;
+  background-color:lawngreen;
+  height:25px;
+  color:white;
+}
+#input{
+  border-radius:10px;
+  width:250px;
+  height:35px;
+  border:solid black 2px;
+}
+h1{
+ margin-bottom:50px;
+ font-size:4rem;
+ color:white;
+}
+
+li{
+  margin-right:10px;
+  color:white;
+  text-decoration:none;
+  margin-bottom:10px;
+}
+button{
+  margin-right:10px;
+}
+.trash-btn{
+  background-color:rgb(250, 41, 41);
+  color:white;
+  border:solid 2px black;
+}
+.check-btn{
+  background-color:rgb(3, 148, 3);
+  color:white;
+  border:solid 2px black;
+}
